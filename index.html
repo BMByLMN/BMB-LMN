@@ -42,11 +42,12 @@ section
             text-align:center;
         }
 
-        .grid-productos{
-    display:flex;
-    flex-wrap:wrap;
+      .grid-productos{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
     gap:25px;
-    justify-content:center;
+    max-width:1100px;
+    margin:auto;
 }
 
 .producto{
