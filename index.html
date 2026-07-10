@@ -457,15 +457,24 @@ onclick="cambiarFoto('foto-jean-straight', this.src)"
 
 </section>
 
-   <script>
+ <script>
 
 function cambiarFoto(id, nuevaFoto){
 
-    document.getElementById(id).src = nuevaFoto;
+    const foto = document.getElementById(id);
+
+    foto.style.opacity = 0;
+
+    setTimeout(function(){
+
+        foto.src = nuevaFoto;
+        foto.style.opacity = 1;
+
+    },150);
 
 }
 
-</script>  
+</script>
    
 </body>
 
