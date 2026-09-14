@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEMAN | Everyday Essentials</title>
+<style>
+  :root{
+    --bg:#f5f5f5; --card:#ffffff; --card2:#eeeeee; --line:#e0e0e0;
+    --txt:#111111; --muted:#8a8a8a; --accent:#111111; --accent-txt:#ffffff;
+    --radius:0px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:Arial,'Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:90px}
+  a{color:inherit}
+
+  /* ===== HEADER ===== */
+  header{padding:40px 20px 24px;text-align:center}
+  .logo-img{max-width:280px;width:60%;display:block;margin:0 auto}
+  .portada{width:100%;height:340px;object-fit:cover;display:block;margin-top:24px}
+  @media (max-width:768px){ .portada{height:200px} }
+  .brand{font-size:30px;font-weight:700;letter-spacing:8px;text-transform:uppercase;color:var(--txt)}
+  .subtitulo{letter-spacing:4px;font-size:11px;margin-top:10px;color:var(--muted);text-transform:uppercase}
+  nav{margin-top:28px;display:flex;flex-wrap:wrap;justify-content:center;gap:0}
+  nav a{text-decoration:none;color:#111;margin:4px 14px;font-size:12px;letter-spacing:2px;transition:.2s;cursor:pointer;text-transform:uppercase}
+  nav a:hover{opacity:.5}
+
+  /* ===== LAYOUT ===== */
+  .wrap{max-width:1100px;margin:0 auto;padding:20px 16px}
+  .controls{display:flex;gap:8px;justify-content:flex-end;margin:6px 6px 0}
+  .controls button{background:transparent;border:1px solid var(--line);border-radius:0;padding:7px 12px;font-size:11px;font-weight:700;cursor:pointer;color:var(--txt);letter-spacing:1px;text-transform:uppercase}
+  .controls button:hover{background:var(--card2)}
+  .cat-head{display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none;
+    margin:40px 6px 0;padding:0 4px 12px;border-bottom:1px solid #111}
+  .cat-head .t{font-size:20px;font-weight:400;letter-spacing:3px;text-transform:uppercase}
+  .cat-head .t small{color:var(--muted);font-weight:400;font-size:11px;margin-left:10px;letter-spacing:1px}
+  .cat-head .chev{font-size:14px;transition:transform .2s ease;color:var(--muted)}
+  .cat-head.open .chev{transform:rotate(180deg);color:var(--txt)}
+  .cat-body{display:none}
+  .cat-body.open{display:block}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin:25px 0 6px}
+  @media (max-width:768px){ .grid{grid-template-columns:repeat(2,1fr);gap:15px} }
+
+  /* ===== CARD ===== */
+  .card{background:var(--card);border:none;border-radius:0;overflow:hidden;display:flex;flex-direction:column;transition:transform .18s ease}
+  .card:hover{transform:translateY(-4px)}
+  .ph{position:relative;aspect-ratio:3/4;background:#eee;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease}
+  .card:hover .ph img{transform:scale(1.03)}
+  .ph .noimg{color:#bbb;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+  .ph .nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.9);border:1px solid var(--line);color:#111;width:26px;height:26px;border-radius:0;font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;z-index:2}
+  .ph .nav.prev{left:0} .ph .nav.next{right:0}
+  .ph .dots{position:absolute;bottom:8px;left:0;right:0;display:flex;gap:4px;justify-content:center;z-index:2}
+  .ph .dots i{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.6);display:inline-block}
+  .ph .dots i.on{background:#fff;outline:1px solid rgba(0,0,0,.3)}
+  .card-body{padding:16px 4px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .p-name{font-size:14px;font-weight:700;line-height:1.2;text-transform:uppercase;letter-spacing:.5px}
+  .p-color{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+  .p-tag{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700}
+  .p-tag.new{color:#111}
+  .p-tag.agotado{color:#c81e1e}
+  .p-tag.proximamente{color:#999;font-style:italic}
+  .p-price{font-size:19px;font-weight:700;margin:4px 0}
+  .sizes{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}
+  .sz{border:1px solid var(--line);border-radius:0;padding:4px 9px;font-size:11px;cursor:pointer;background:#fafafa;user-select:none;transition:.15s;letter-spacing:.5px}
+  .sz.active{background:var(--accent);color:var(--accent-txt);border-color:var(--accent);font-weight:700}
+  .sz .cnt{font-weight:800;margin-left:3px;font-size:10px}
+  .sz.has{border-color:var(--accent)}
+  .add{margin-top:auto;background:var(--accent);color:var(--accent-txt);border:none;border-radius:0;padding:11px;font-weight:700;font-size:12px;cursor:pointer;letter-spacing:1.5px;text-transform:uppercase}
+  .add:active{transform:scale(.98)}
+  .card footer{text-align:left;color:var(--muted);font-size:10px;padding:6px 0 0;letter-spacing:1px}
+
+  /* ===== ORDER BAR ===== */
+  .bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #111;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;z-index:40}
+  .bar .info{font-size:12px;color:var(--muted);letter-spacing:.5px}
+  .bar .info b{color:var(--txt);font-size:15px}
+  .bar button{background:var(--accent);color:var(--accent-txt);border:none;border-radius:0;padding:11px 22px;font-weight:700;cursor:pointer;letter-spacing:1.5px;text-transform:uppercase;font-size:12px}
+  .bar button:disabled{opacity:.35;cursor:not-allowed}
+
+  /* ===== MODAL ===== */
+  .modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;z-index:60;padding:16px}
+  .modal.open{display:flex}
+  .sheet{background:#fff;border:none;border-radius:0;width:100%;max-width:520px;max-height:90vh;overflow:auto;padding:26px}
+  .sheet h2{font-size:18px;margin-bottom:16px;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+  .line{display:flex;justify-content:space-between;gap:8px;padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}
+  .line small{color:var(--muted);display:block;font-size:11px}
+  .line .rm{color:#c81e1e;cursor:pointer;font-size:11px;border:none;background:none;letter-spacing:1px}
+  .tot{display:flex;justify-content:space-between;padding:16px 0 4px;font-size:17px;font-weight:700}
+  .vaciar{background:transparent;border:none;color:#c81e1e;font-size:11px;font-weight:700;cursor:pointer;padding:6px 0;margin-top:2px;letter-spacing:1px;text-transform:uppercase}
+  .vaciar:hover{text-decoration:underline}
+  .form label{display:block;font-size:11px;color:var(--muted);margin:12px 0 4px;letter-spacing:1px;text-transform:uppercase}
+  .form input,.form textarea{width:100%;background:#fafafa;border:1px solid var(--line);border-radius:0;padding:10px;color:var(--txt);font-size:14px;font-family:inherit}
+  .actions{display:flex;gap:10px;margin-top:18px}
+  .actions button{flex:1;padding:13px;border-radius:0;font-weight:700;cursor:pointer;border:none;letter-spacing:1px;text-transform:uppercase;font-size:12px}
+  .btn-primary{background:var(--accent);color:var(--accent-txt)}
+  .btn-ghost{background:transparent;color:var(--txt);border:1px solid #111 !important}
+  .empty{color:var(--muted);text-align:center;padding:30px 0;letter-spacing:1px;text-transform:uppercase;font-size:12px}
+  footer.site{text-align:center;color:var(--muted);font-size:11px;padding:40px 16px;letter-spacing:2px;text-transform:uppercase}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<header>
+  <img class="logo-img" id="logoImg" src="logo/logo.png" alt="LEMAN" onerror="logoFallback(this)">
+  <div class="brand" id="brandTxt" style="display:none">LEMAN</div>
+  <p class="subtitulo">Everyday Essentials</p>
+  <nav id="navCats"></nav>
+</header>
+
+<img class="portada" id="portada" src="logo/LOGOLMN.png" alt="" onerror="portadaFallback(this)">
+
+<div class="wrap" id="catalogo">
+  <p class="empty">Cargando catálogo…</p>
+</div>
+
+<footer class="site">© LEMAN STUDIOS · Córdoba, Argentina</footer>
+
+<div class="bar">
+  <div class="info"><span id="barCount">0</span> productos · <b id="barTotal">$0</b></div>
+  <button id="verPedido" disabled onclick="abrirPedido()">Ver pedido</button>
+</div>
+
+<div class="modal" id="modal">
+  <div class="sheet">
+    <h2>Tu pedido</h2>
+    <div id="lineas"></div>
+    <div class="tot"><span>Total</span><span id="modalTotal">$0</span></div>
+    <button class="vaciar" onclick="vaciarPedido()">Vaciar pedido</button>
+    <div class="form">
+      <label>Nombre / Empresa *</label>
+      <input id="fNombre" placeholder="Tu nombre o local">
+      <label>Teléfono / WhatsApp *</label>
+      <input id="fTel" placeholder="Ej: 11 2345 6789">
+      <label>Email</label>
+      <input id="fMail" placeholder="opcional">
+      <label>Notas (opcional)</label>
+      <textarea id="fNotas" rows="2" placeholder="Comentarios del pedido"></textarea>
+    </div>
+    <div class="actions">
+      <button class="btn-ghost" onclick="cerrarPedido()">Seguir comprando</button>
+      <button class="btn-primary" onclick="descargarPlanilla()">Descargar pedido (Excel)</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =========================================================
+   CATÁLOGO MAYORISTA — LEMAN
+   Productos: se cargan desde "productos.csv" (misma lógica que BAMBA).
+   ========================================================= */
+
+/* --- Logo: prueba varios nombres/mayúsculas --- */
+const LOGO_TRIES = ["logo/LOGOLMN.png","logo/logo.png","logo/Logo.png","logo/LOGO.png","logo/LOGO LMN.png","logo/logo.jpg","logo/Logo.jpg"];
+let logoIdx = 0;
+function logoFallback(img){
+  logoIdx++;
+  if(logoIdx < LOGO_TRIES.length){ img.src = LOGO_TRIES[logoIdx]; }
+  else{ img.style.display="none"; document.getElementById("brandTxt").style.display="block"; }
+}
+const PORT_TRIES = ["logo/LOGOLMN.png","portada.jpg","portada.png","portada.jpeg","Portada.jpg","Portada.png","portada.PNG","portada.JPG"];
+let portIdx = 0;
+function portadaFallback(img){
+  portIdx++;
+  if(portIdx < PORT_TRIES.length){ img.src = PORT_TRIES[portIdx]; }
+  else{ img.style.display="none"; }
+}
+
+const EJEMPLO = [
+  {categoria:"REMERAS", producto:"COMPANY RELAXED", color:"Gris perla", etiqueta:"NEW IN", precio:14990, talles:"S,M,L,XL,XXL", imagen:""},
+];
+
+let PRODUCTOS = [];
+const pedido = [];
+const IMGS = {};
+const idxMap = {};
+const money = n => "$" + Number(n).toLocaleString("es-AR");
+
+function extCandidates(file){
+  const dot = file.lastIndexOf(".");
+  const base = dot >= 0 ? file.slice(0, dot) : file;
+  const exts = [".jpeg",".jpg",".png",".JPG",".JPEG",".PNG",".webp"];
+  const list = [file];
+  exts.forEach(e=>{ if(!list.includes(base+e)) list.push(base+e); });
+  return list;
+}
+function setImg(el, file){
+  const cands = extCandidates(file);
+  el.dataset.cands = JSON.stringify(cands);
+  el.dataset.ci = "0";
+  el.style.display = "block";
+  el.src = cands[0];
+}
+function imgTry(el){
+  let ci = (parseInt(el.dataset.ci||"0",10)) + 1;
+  let cands = [];
+  try{ cands = JSON.parse(el.dataset.cands||"[]"); }catch(e){}
+  if(ci < cands.length){ el.dataset.ci = ci; el.src = cands[ci]; }
+  else { imgErr(el); }
+}
+function slide(e, gi, dir){
+  e.stopPropagation();
+  const imgs = IMGS[gi]; if(!imgs || imgs.length < 2) return;
+  let i = ((idxMap[gi]||0) + dir + imgs.length) % imgs.length;
+  idxMap[gi] = i;
+  const im = document.getElementById("img"+gi);
+  if(im) setImg(im, imgs[i]);
+  const dots = document.getElementById("dots"+gi);
+  if(dots) dots.querySelectorAll("i").forEach((d,k)=>d.classList.toggle("on", k===i));
+}
+function imgErr(el){
+  const ph = el.parentNode; el.remove();
+  if(!ph.querySelector(".noimg")) ph.insertAdjacentHTML("afterbegin",'<span class="noimg">SIN FOTO</span>');
+}
+
+async function cargar(){
+  try{
+    const r = await fetch("productos.csv", {cache:"no-store"});
+    if(!r.ok) throw 0;
+    const txt = await r.text();
+    PRODUCTOS = parseCSV(txt);
+    if(!PRODUCTOS.length) throw 0;
+  }catch(e){ PRODUCTOS = EJEMPLO; }
+  render();
+}
+
+function parseCSV(txt){
+  const rows = [];
+  const lines = txt.replace(/\r/g,"").split("\n").filter(l=>l.trim()!=="");
+  if(!lines.length) return rows;
+  const headers = splitLine(lines[0]).map(h=>h.trim().toLowerCase());
+  for(let i=1;i<lines.length;i++){
+    const cells = splitLine(lines[i]);
+    const o = {};
+    headers.forEach((h,idx)=> o[h] = (cells[idx]||"").trim());
+    if(o.producto) rows.push({
+      categoria:(o.categoria||"OTROS").toUpperCase(),
+      producto:o.producto, color:o.color||"", etiqueta:o.etiqueta||"",
+      precio:Number(String(o.precio).replace(/[^0-9]/g,""))||0,
+      talles:o.talles||"", imagen:o.imagen||""
+    });
+  }
+  return rows;
+}
+function splitLine(line){
+  const out=[];let cur="";let q=false;
+  for(let i=0;i<line.length;i++){const c=line[i];
+    if(c==='"'){q=!q;} else if(c===',' && !q){out.push(cur);cur="";} else cur+=c;}
+  out.push(cur);return out;
+}
+
+function slugify(s){
+  return s.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+}
+
+function tagClass(etq){
+  const e = (etq||"").toUpperCase();
+  if(e==="AGOTADO") return "agotado";
+  if(e==="PRÓXIMAMENTE" || e==="PROXIMAMENTE") return "proximamente";
+  if(e) return "new";
+  return "";
+}
+
+function render(){
+  const cont = document.getElementById("catalogo");
+  const cats = [...new Set(PRODUCTOS.map(p=>p.categoria))];
+  if(!cats.length){ cont.innerHTML = `<p class="empty">No hay productos cargados.</p>`; return; }
+
+  // Nav de categorías (se arma solo, según lo que haya en el CSV)
+  document.getElementById("navCats").innerHTML = cats.map(c=>
+    `<a onclick="irACategoria('${slugify(c)}')">${c}</a>`).join("");
+
+  let html = `<div class="controls">
+      <button onclick="toggleAll(true)">Abrir todo</button>
+      <button onclick="toggleAll(false)">Cerrar todo</button>
+    </div>`;
+  cats.forEach(cat=>{
+    const items = PRODUCTOS.filter(p=>p.categoria===cat);
+    html += `<div class="cat-head" id="cat-${slugify(cat)}" onclick="toggleCat(this)">
+        <span class="t">${cat}<small>(${items.length})</small></span>
+        <span class="chev">▾</span>
+      </div>
+      <div class="cat-body"><div class="grid">`;
+    items.forEach((p)=>{
+      const gi = PRODUCTOS.indexOf(p);
+      const talles = p.talles.split(",").map(t=>t.trim()).filter(Boolean);
+      const imgs = p.imagen.split("|").map(s=>s.trim()).filter(Boolean);
+      IMGS[gi] = imgs; idxMap[gi] = 0;
+      let phInner;
+      if(imgs.length){
+        const cands0 = extCandidates(imgs[0]);
+        phInner = `<img id="img${gi}" src="${cands0[0]}" data-cands='${JSON.stringify(cands0)}' data-ci="0" alt="${p.producto}" onerror="imgTry(this)">`;
+        if(imgs.length > 1){
+          phInner += `<button class="nav prev" onclick="slide(event,${gi},-1)" aria-label="Anterior">‹</button>
+                      <button class="nav next" onclick="slide(event,${gi},1)" aria-label="Siguiente">›</button>
+                      <span class="dots" id="dots${gi}">${imgs.map((_,k)=>`<i class="${k===0?'on':''}"></i>`).join("")}</span>`;
+        }
+      } else { phInner = `<span class="noimg">Sin foto</span>`; }
+      html += `
+      <div class="card" data-i="${gi}">
+        <div class="ph">${phInner}</div>
+        <div class="card-body">
+          <div class="p-name">${p.producto}</div>
+          ${p.color?`<div class="p-color">${p.color}</div>`:""}
+          ${p.etiqueta?`<div class="p-tag ${tagClass(p.etiqueta)}">${p.etiqueta}</div>`:""}
+          <div class="p-price">${money(p.precio)}</div>
+          <div class="sizes">${talles.map(t=>`<span class="sz" data-talle="${t}" onclick="pickSize(this)">${t}<b class="cnt"></b></span>`).join("")||'<span class="noimg">Talle único</span>'}</div>
+          <button class="add" onclick="add(${gi},this)">+ Agregar al pedido</button>
+          <footer>LEMAN STUDIOS<br>Córdoba, Argentina</footer>
+        </div>
+      </div>`;
+    });
+    html += `</div></div>`;
+  });
+  cont.innerHTML = html;
+}
+
+function irACategoria(slug){
+  const head = document.getElementById("cat-"+slug);
+  if(!head) return;
+  head.classList.add("open");
+  head.nextElementSibling.classList.add("open");
+  head.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function toggleCat(head){
+  head.classList.toggle("open");
+  head.nextElementSibling.classList.toggle("open");
+}
+function toggleAll(open){
+  document.querySelectorAll(".cat-head").forEach(h=>h.classList.toggle("open", open));
+  document.querySelectorAll(".cat-body").forEach(b=>b.classList.toggle("open", open));
+}
+
+// Multi-talle: tocar un talle lo prende/apaga (podés elegir varios)
+function pickSize(el){
+  el.classList.toggle("active");
+}
+
+function add(i, btn){
+  const card = btn.closest(".card");
+  const talles = card.querySelectorAll(".sz");
+  let seleccion;
+  if(talles.length){
+    const actives = card.querySelectorAll(".sz.active");
+    if(!actives.length){ alert("Elegí uno o más talles"); return; }
+    seleccion = [...actives].map(a=>a.dataset.talle);
+  } else {
+    seleccion = ["Único"];
+  }
+  const p = PRODUCTOS[i];
+  seleccion.forEach(talle=>{
+    const key = i+"|"+talle;
+    const found = pedido.find(x=>x.key===key);
+    if(found) found.cant++;
+    else pedido.push({key, nombre:p.producto, color:p.color, talle, precio:p.precio, cant:1});
+  });
+  actualizarBarra();
+  refreshCounts();
+  btn.textContent = "✓ Agregado (+"+seleccion.length+")";
+  setTimeout(()=>btn.textContent="+ Agregar al pedido", 700);
+}
+
+function refreshCounts(){
+  document.querySelectorAll(".card").forEach(card=>{
+    const gi = card.dataset.i;
+    card.querySelectorAll(".sz").forEach(chip=>{
+      const item = pedido.find(x=>x.key===(gi+"|"+chip.dataset.talle));
+      const cnt = chip.querySelector(".cnt");
+      if(cnt) cnt.textContent = item ? "×"+item.cant : "";
+      chip.classList.toggle("has", !!item);
+    });
+  });
+}
+
+function actualizarBarra(){
+  const cant = pedido.reduce((s,x)=>s+x.cant,0);
+  const tot = pedido.reduce((s,x)=>s+x.cant*x.precio,0);
+  document.getElementById("barCount").textContent = cant;
+  document.getElementById("barTotal").textContent = money(tot);
+  document.getElementById("verPedido").disabled = cant===0;
+}
+
+function abrirPedido(){ renderLineas(); document.getElementById("modal").classList.add("open"); }
+function cerrarPedido(){ document.getElementById("modal").classList.remove("open"); }
+
+function renderLineas(){
+  const cont = document.getElementById("lineas");
+  if(!pedido.length){ cont.innerHTML = `<p class="empty">Tu pedido está vacío.</p>`; }
+  else{
+    cont.innerHTML = pedido.map((x,idx)=>`
+      <div class="line">
+        <div>${x.nombre}${x.color?` · ${x.color}`:""}
+          <small>Talle ${x.talle} · ${money(x.precio)} c/u</small>
+        </div>
+        <div style="text-align:right;white-space:nowrap">
+          x${x.cant} · <b>${money(x.precio*x.cant)}</b><br>
+          <button class="rm" onclick="quitar(${idx})">quitar</button>
+        </div>
+      </div>`).join("");
+  }
+  const tot = pedido.reduce((s,x)=>s+x.cant*x.precio,0);
+  document.getElementById("modalTotal").textContent = money(tot);
+}
+function quitar(idx){ pedido.splice(idx,1); actualizarBarra(); renderLineas(); refreshCounts(); }
+
+function vaciarPedido(){
+  if(!pedido.length) return;
+  if(!confirm("¿Vaciar todo el pedido?")) return;
+  pedido.length = 0;
+  actualizarBarra(); renderLineas(); refreshCounts();
+}
+
+function descargarPlanilla(){
+  const nombre = document.getElementById("fNombre").value.trim();
+  const tel = document.getElementById("fTel").value.trim();
+  if(!pedido.length){ alert("Tu pedido está vacío."); return; }
+  if(!nombre || !tel){ alert("Completá Nombre y Teléfono."); return; }
+  const mail = document.getElementById("fMail").value.trim();
+  const notas = document.getElementById("fNotas").value.trim().replace(/\n/g," ");
+  const fecha = new Date().toLocaleString("es-AR");
+  const safe = nombre.replace(/[^a-z0-9]/gi,"_");
+  let tot = 0;
+
+  if(typeof XLSX !== "undefined"){
+    const rows = [
+      ["PEDIDO MAYORISTA - LEMAN"],
+      ["Fecha", fecha],
+      ["Cliente", nombre],
+      ["Telefono", tel],
+      ["Email", mail],
+      ["Notas", notas],
+      [],
+      ["Producto","Color","Talle","Cantidad","Precio unit","Subtotal"]
+    ];
+    pedido.forEach(x=>{ const sub=x.precio*x.cant; tot+=sub; rows.push([x.nombre, x.color, x.talle, x.cant, x.precio, sub]); });
+    rows.push(["","","","","TOTAL", tot]);
+    const ws = XLSX.utils.aoa_to_sheet(rows);
+    ws["!cols"] = [{wch:32},{wch:12},{wch:8},{wch:9},{wch:11},{wch:11}];
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Pedido");
+    XLSX.writeFile(wb, "Pedido_LEMAN_"+safe+".xlsx");
+    alert("Listo, se descargó tu pedido en Excel. Envíanoslo para confirmarlo.");
+    return;
+  }
+
+  let csv = "PEDIDO MAYORISTA - LEMAN\n";
+  csv += `Fecha,${fecha}\nCliente,${esc(nombre)}\nTelefono,${esc(tel)}\nEmail,${esc(mail)}\nNotas,${esc(notas)}\n\n`;
+  csv += "Producto,Color,Talle,Cantidad,Precio unit,Subtotal\n";
+  pedido.forEach(x=>{ const sub=x.precio*x.cant; tot+=sub; csv += `${esc(x.nombre)},${esc(x.color)},${x.talle},${x.cant},${x.precio},${sub}\n`; });
+  csv += `,,,,TOTAL,${tot}\n`;
+  const blob = new Blob(["﻿"+csv], {type:"text/csv;charset=utf-8;"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href=url; a.download=`Pedido_LEMAN_${safe}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+  alert("Listo, se descargó la planilla de tu pedido. Envíanosla para confirmarlo.");
+}
+function esc(s){ s=String(s||""); return /[",\n]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s; }
+
+cargar();
+</script>
+</body>
+</html>
