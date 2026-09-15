@@ -1,37 +1,39 @@
 categoria,producto,color,etiqueta,precio,talles,imagen
-REMERA BOXY,REMERA BOXY STICK,Arena,NEW IN,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY EQUIPE,Arena,NEW IN,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY EQUIPE,Off White,NEW IN,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY AUTHENTIC,Gris,,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY AUTHENTIC,Negro,,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY COLLECTIVE,Gris,,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY HOME RUN,Arena,,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY HOME RUN,Gris Claro,,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY IMPRESS,Gris,,16990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY IMPRESS,Negro,,16990,"S,M,L,XL",
-REMERA CROP,REMERA WASTAGED,Marron,NEW IN,19990,"S,M,L,XL",
-REMERA CROP,REMERA WASTAGED,Gris,NEW IN,19990,"S,M,L,XL",
-REMERA CROP,REMERA CAMPUS WASHED,Bordo,NEW IN,19990,"S,M,L,XL",
-REMERA CROP,REMERA CAMPUS WASHED,Gris,NEW IN,19990,"S,M,L,XL",
-REMERA CROP,REMERA BRAND,Gris,NEW IN,19990,"S,M,L,XL",
-REMERA CROP,REMERA BRAND,Bordo,NEW IN,19990,"S,M,L,XL",
-CAMISA,REMERA CAMPUS LAYER,Off white,NEW IN,19990,"S,M,L,XL",
-CAMISA,CAMISA LEMAN STRIPE,Celeste,NEW IN,26990,"S,M,L,XL",
-CREWNECK,CREWNECK PITCHER,Gris,,32490,"S,M,L,XL",
-CREWNECK,CREWNECK PITCHER,Negro,,32490,"S,M,L,XL",
-CREWNECK,CREWNECK UNIFORM,Gris,,32490,"S,M,L,XL",
-CREWNECK,CREWNECK UNIFORM,Negro,,32490,"S,M,L,XL",
-CREWNECK ZIP,CREWNECK ZIP FIELD,Gris,NEW IN,32490,"S,M,L,XL",
-CREWNECK ZIP,CREWNECK ZIP FIELD,Negro,NEW IN,32490,"S,M,L,XL",
-CREWNECK ZIP,CREWNECK ZIP AUTHENTIC,Gris,NEW IN,32490,"S,M,L,XL",
-CREWNECK ZIP,CREWNECK ZIP AUTHENTIC,Negro,NEW IN,32490,"S,M,L,XL",
-HOODIES,HOODIE CHAMP,Negro,,34990,"S,M,L,XL",
-HOODIES,HOODIE CHAMP,Beige,,34990,"S,M,L,XL",
-HOODIES,HOODIE LMN STUDIOS,Negro,,34990,"S,M,L,XL",
-HOODIES,HOODIE LMN STUDIOS,Beige,,34990,"S,M,L,XL",
-BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,NEW IN,29990,"38,40,42,44,46,48",
-BERMUDA,BERMUDA BAGGY ROOT,Celeste,NEW IN,29990,"38,40,42,44,46,48",
-DENIM,BAGGY HOLE,Celeste,NEW IN,34990,"38,40,42,44,46,48",
-DENIM,BAGGY ROOT,Celeste,NEW IN,34990,"38,40,42,44,46,48",
-DENIM,BAGGY UNIFORM,Celeste,NEW IN,34990,"38,40,42,44,46,48",
-ACCESORIOS,BANDOLERA LMN,,,12490,,
+REMERA BOXY,REMERA BOXY STICK,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-stick-arena.jpg
+REMERA BOXY,REMERA BOXY EQUIPE,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-equipe-arena.jpg
+REMERA BOXY,REMERA BOXY EQUIPE,Off White,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-equipe-off-white.jpg
+REMERA BOXY,REMERA BOXY AUTHENTIC,Gris,,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-gris.jpg
+REMERA BOXY,REMERA BOXY AUTHENTIC,Negro,,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-negro.jpg
+REMERA BOXY,REMERA BOXY COLLECTIVE,Gris,,16990,"S,M,L,XL",imagenes/remera-boxy-collective-gris.jpg
+REMERA BOXY,REMERA BOXY HOME RUN,Arena,,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-arena.jpg
+REMERA BOXY,REMERA BOXY HOME RUN,Gris Claro,,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-gris-claro.jpg
+REMERA BOXY,REMERA BOXY IMPRESS,Gris,,16990,"S,M,L,XL",imagenes/remera-boxy-impress-gris.jpg
+REMERA BOXY,REMERA BOXY IMPRESS,Negro,,16990,"S,M,L,XL",imagenes/remera-boxy-impress-negro.jpg
+REMERA CROP,REMERA WASTAGED,Marron,NEW IN,19990,"S,M,L,XL",imagenes/remera-wastaged-marron.jpg
+REMERA CROP,REMERA WASTAGED,Gris,NEW IN,19990,"S,M,L,XL",imagenes/remera-wastaged-gris.jpg
+REMERA CROP,REMERA CAMPUS WASHED,Bordo,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-washed-bordo.jpg
+REMERA CROP,REMERA CAMPUS WASHED,Gris,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-washed-gris.jpg
+REMERA CROP,REMERA BRAND,Gris,NEW IN,19990,"S,M,L,XL",imagenes/remera-brand-gris.jpg
+REMERA CROP,REMERA BRAND,Bordo,NEW IN,19990,"S,M,L,XL",imagenes/remera-brand-bordo.jpg
+CAMISA,REMERA CAMPUS LAYER,Off white,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-layer-off-white.jpg
+CAMISA,CAMISA LEMAN STRIPE,Celeste,NEW IN,26990,"S,M,L,XL",imagenes/camisa-leman-stripe-celeste.jpg
+CREWNECK,CREWNECK PITCHER,Gris,,32490,"S,M,L,XL",imagenes/crewneck-pitcher-gris.jpg
+CREWNECK,CREWNECK PITCHER,Negro,,32490,"S,M,L,XL",imagenes/crewneck-pitcher-negro.jpg
+CREWNECK,CREWNECK UNIFORM,Gris,,32490,"S,M,L,XL",imagenes/crewneck-uniform-gris.jpg
+CREWNECK,CREWNECK UNIFORM,Negro,,32490,"S,M,L,XL",imagenes/crewneck-uniform-negro.jpg
+CREWNECK ZIP,CREWNECK ZIP FIELD,Gris,NEW IN,32490,"S,M,L,XL",imagenes/crewneck-zip-field-gris.jpg
+CREWNECK ZIP,CREWNECK ZIP FIELD,Negro,NEW IN,32490,"S,M,L,XL",imagenes/crewneck-zip-field-negro.jpg
+CREWNECK ZIP,CREWNECK ZIP AUTHENTIC,Gris,NEW IN,32490,"S,M,L,XL",imagenes/crewneck-zip-authentic-gris.jpg
+CREWNECK ZIP,CREWNECK ZIP AUTHENTIC,Negro,NEW IN,32490,"S,M,L,XL",imagenes/crewneck-zip-authentic-negro.jpg
+HOODIES,HOODIE CHAMP,Negro,,34990,"S,M,L,XL",imagenes/hoodie-champ-negro.jpg
+HOODIES,HOODIE CHAMP,Beige,,34990,"S,M,L,XL",imagenes/hoodie-champ-beige.jpg
+HOODIES,HOODIE LMN STUDIOS,Negro,,34990,"S,M,L,XL",imagenes/hoodie-lmn-studios-negro.jpg
+HOODIES,HOODIE LMN STUDIOS,Beige,,34990,"S,M,L,XL",imagenes/hoodie-lmn-studios-beige.jpg
+BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,NEW IN,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-uniform-celeste.jpg
+BERMUDA,BERMUDA BAGGY ROOT,Celeste,NEW IN,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-root-celeste.jpg
+DENIM,JEAN STRAIGHT RUST,Negro,,32990,"38,40,42,44,46,48",imagenes/denim/jean-straight-black-negro.JPG
+DENIM,BAGGY HOLE,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/denim/baggy-hole-celeste.jpg
+DENIM,BAGGY ROOT,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/denim/baggy-root-celeste.jpg
+DENIM,BAGGY UNIFORM,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/denim/baggy-uniform-celeste.jpg
+ACCESORIOS,BANDOLERA LMN,,,12490,,imagenes/bandolera-lmn.jpg
+
