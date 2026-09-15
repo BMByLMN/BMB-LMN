@@ -1,10 +1,10 @@
 categoria,producto,color,etiqueta,precio,talles,imagen
-REMERA BOXY,REMERA BOXY STICK,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-stick-arena.jpg
-REMERA BOXY,REMERA BOXY EQUIPE,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-equipe-arena.jpg
-REMERA BOXY,REMERA BOXY EQUIPE,Off White,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-equipe-off-white.jpg
+REMERA BOXY,REMERA BOXY STICK,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-stick-arena-1.jpg|imagenes/remera-boxy-stick-arena-2.jpg|imagenes/remera-boxy-stick-arena-3.jpg
+REMERA BOXY,REMERA BOXY EQUIPE,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-equipe-arena-1.jpg|imagenes/remera-boxy-equipe-arena-2.jpg
+REMERA BOXY,REMERA BOXY EQUIPE,Off White,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-equipe-off-white-1.jpg|imagenes/remera-boxy-equipe-off-white-2.jpg
 REMERA BOXY,REMERA BOXY COLLECTIVE,Gris,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-collective-gris.jpg
-REMERA BOXY,REMERA BOXY HOME RUN,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-arena.jpg
-REMERA BOXY,REMERA BOXY HOME RUN,Gris Claro,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-gris-claro.jpg
+REMERA BOXY,REMERA BOXY HOME RUN,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-arena-1.jpg|imagenes/remera-boxy-home-run-arena-2.jpg
+REMERA BOXY,REMERA BOXY HOME RUN,Gris Claro,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-gris-claro-1.jpg|imagenes/remera-boxy-home-run-gris-claro-2.jpg
 REMERA BOXY,REMERA BOXY AUTHENTIC,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-gris.jpg
 REMERA BOXY,REMERA BOXY AUTHENTIC,Negro,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-negro.jpg
 REMERA BOXY,REMERA BOXY IMPRESS,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-impress-gris.jpg
@@ -15,8 +15,8 @@ REMERA CROP,REMERA CAMPUS WASHED,Bordo,NEW IN,19990,"S,M,L,XL",imagenes/remera-c
 REMERA CROP,REMERA CAMPUS WASHED,Gris,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-washed-gris.jpg
 REMERA CROP,REMERA BRAND,Gris,NEW IN,19990,"S,M,L,XL",imagenes/remera-brand-gris.jpg
 REMERA CROP,REMERA BRAND,Bordo,NEW IN,19990,"S,M,L,XL",imagenes/remera-brand-bordo.jpg
-CAMISA,REMERA CAMPUS LAYER,Off white,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-layer-off-white.jpg
-CAMISA,CAMISA LEMAN STRIPE,Celeste,NEW IN,26990,"S,M,L,XL",imagenes/camisa-leman-stripe-celeste.jpg
+CAMISA,REMERA CAMPUS LAYER,Off white,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-layer-off-white.jpg|imagenes/remera-campus-layer-off-white-1.jpg
+CAMISA,CAMISA LEMAN STRIPE,Celeste,NEW IN,26990,"S,M,L,XL",imagenes/camisa-leman-stripe-celeste.jpg|imagenes/camisa-leman-stripe-celeste-1.jpg
 CREWNECK,CREWNECK PITCHER,Gris,,32490,"S,M,L,XL",imagenes/crewneck-pitcher-gris.jpg
 CREWNECK,CREWNECK PITCHER,Negro,,32490,"S,M,L,XL",imagenes/crewneck-pitcher-negro.jpg
 CREWNECK,CREWNECK UNIFORM,Gris,,32490,"S,M,L,XL",imagenes/crewneck-uniform-gris.jpg
@@ -29,7 +29,7 @@ HOODIES,HOODIE CHAMP,Negro,,34990,"S,M,L,XL",imagenes/hoodie-champ-negro.jpg
 HOODIES,HOODIE CHAMP,Beige,,34990,"S,M,L,XL",imagenes/hoodie-champ-beige.jpg
 HOODIES,HOODIE LMN STUDIOS,Negro,,34990,"S,M,L,XL",imagenes/hoodie-lmn-studios-negro.jpg
 HOODIES,HOODIE LMN STUDIOS,Beige,,34990,"S,M,L,XL",imagenes/hoodie-lmn-studios-beige.jpg
-BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,NEW IN,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-uniform-celeste.jpg
+BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,NEW IN,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-uniform-celeste-1.jpg|imagenes/bermuda-baggy-uniform-celeste-2.jpg|imagenes/bermuda-baggy-uniform-celeste-3.jpg
 BERMUDA,BERMUDA BAGGY ROOT,Celeste,NEW IN,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-root-celeste.jpg
 DENIM,BAGGY HOLE,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/baggy-hole-celeste-1.jpg|imagenes/baggy-hole-celeste-2.jpg|imagenes/baggy-hole-celeste-3.jpg|imagenes/baggy-hole-celeste-4.jpg
 DENIM,BAGGY ROOT,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/baggy-root-celeste-1.jpg|imagenes/baggy-root-celeste-2.jpg|imagenes/baggy-root-celeste-3.jpg
