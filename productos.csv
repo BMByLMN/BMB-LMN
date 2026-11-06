@@ -1,32 +1,36 @@
 categoria,producto,color,etiqueta,precio,talles,imagen
-MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Gris,NEW IN,17490,"S,M,L,XL",
-MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Negro,NEW IN,17490,"S,M,L,XL",
-MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Gris,NEW IN,17490,"S,M,L,XL",
-MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Negro,NEW IN,17490,"S,M,L,XL",
+MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Gris,,17490,"S,M,L,XL",
+MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Negro,,17490,"S,M,L,XL",
+MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Gris,,17490,"S,M,L,XL",
+MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Negro,,17490,"S,M,L,XL",
 REMERA REGULAR,REMERA ESTABLISHED,Crema,NEW IN,15990,"S,M,L,XL",
 REMERA REGULAR,REMERA ESTABLISHED,Gris,NEW IN,15990,"S,M,L,XL",
 REMERA REGULAR,REMERA ESTABLISHED,Negro,NEW IN,15990,"S,M,L,XL",
 REMERA REGULAR,REMERA VALUES,Crema,NEW IN,15990,"S,M,L,XL",
 REMERA REGULAR,REMERA VALUES,Gris,NEW IN,15990,"S,M,L,XL",
 REMERA REGULAR,REMERA VALUES,Negro,NEW IN,15990,"S,M,L,XL",
-REMERA REGULAR,REMERA UNIFORM,Negro,AGOTADO,15990,"S,M,L,XL",
-REMERA REGULAR,REMERA UNIFORM,Chocolate,AGOTADO,15990,"S,M,L,XL",
-REMERA REGULAR,REMERA ATTITUDE,Negro,AGOTADO,15990,"S,M,L,XL",
-REMERA REGULAR,REMERA ATTITUDE,Chocolate,AGOTADO,15990,"S,M,L,XL",
-REMERA BOXY,REMERA BOXY STICK,Arena,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-stick-arena-1.jpg|imagenes/remera-boxy-stick-arena-2.jpg|imagenes/remera-boxy-stick-arena-3.jpg
-REMERA BOXY,REMERA BOXY EQUIPE,Arena,AGOTADO,16990,"S,M,L,XL",imagenes/EQUIPE-ARENA-1.JPG|imagenes/EQUIPE-ARENA-2.JPG|imagenes/EQUIPE-ARENA-3.JPG|imagenes/EQUIPE-ARENA-4.JPG
-REMERA BOXY,REMERA BOXY EQUIPE,Off White,AGOTADO,16990,"S,M,L,XL",imagenes/EQUIPE-CREMA1.JPG|imagenes/EQUIPE-CREMA-2.JPG|imagenes/EQUIPE-CREMA-3.JPG|imagenes/EQUIPE-CREMA-4.JPG
-REMERA BOXY,REMERA BOXY COLLECTIVE,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-collective-gris-1.jpg|imagenes/remera-boxy-collective-gris-2.jpg|imagenes/remera-boxy-collective-gris-3.jpg
-REMERA BOXY,REMERA BOXY HOME RUN,Arena,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-arena-1.jpg|imagenes/remera-boxy-home-run-arena-2.jpg
-REMERA BOXY,REMERA BOXY HOME RUN,Gris Claro,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-gris-claro-1.jpg|imagenes/remera-boxy-home-run-gris-claro-2.jpg
+REMERA REGULAR,REMERA UNIFORM,Negro,,15990,"S,M,L,XL",
+REMERA REGULAR,REMERA UNIFORM,Chocolate,,15990,"S,M,L,XL",
+REMERA REGULAR,REMERA ATTITUDE,Negro,,15990,"S,M,L,XL",
+REMERA REGULAR,REMERA ATTITUDE,Chocolate,,15990,"S,M,L,XL",imagenes/remera-attitude-chocolate-1.jpg|imagenes/remera-attitude-chocolate-2.jpg|imagenes/remera-attitude-chocolate-3.jpg
+REMERA BOXY,REMERA BOXY STICK,Arena,NEW IN,16990,"S,M,L,XL",imagenes/remera-boxy-stick-arena-1.jpg|imagenes/remera-boxy-stick-arena-2.jpg|imagenes/remera-boxy-stick-arena-3.jpg
+REMERA BOXY,REMERA BOXY EQUIPE,Arena,NEW IN,16990,"S,M,L,XL",imagenes/EQUIPE-ARENA-1.JPG|imagenes/EQUIPE-ARENA-2.JPG|imagenes/EQUIPE-ARENA-3.JPG|imagenes/EQUIPE-ARENA-4.JPG
+REMERA BOXY,REMERA BOXY EQUIPE,Off White,NEW IN,16990,"S,M,L,XL",imagenes/EQUIPE-CREMA1.JPG|imagenes/EQUIPE-CREMA-2.JPG|imagenes/EQUIPE-CREMA-3.JPG|imagenes/EQUIPE-CREMA-4.JPG
+REMERA BOXY,REMERA BOXY COLLECTIVE,Gris,,16990,"S,M,L,XL",imagenes/remera-boxy-collective-gris-1.jpg|imagenes/remera-boxy-collective-gris-2.jpg|imagenes/remera-boxy-collective-gris-3.jpg
+REMERA BOXY,REMERA BOXY HOME RUN,Arena,,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-arena-1.jpg|imagenes/remera-boxy-home-run-arena-2.jpg
+REMERA BOXY,REMERA BOXY HOME RUN,Gris Claro,,16990,"S,M,L,XL",imagenes/remera-boxy-home-run-gris-claro-1.jpg|imagenes/remera-boxy-home-run-gris-claro-2.jpg
+REMERA BOXY,REMERA BOXY AUTHENTIC,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-gris-1.jpg|imagenes/remera-boxy-authentic-gris-2.jpg
+REMERA BOXY,REMERA BOXY AUTHENTIC,Negro,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-negro-1.jpg|imagenes/remera-boxy-authentic-negro-2.jpg
+REMERA BOXY,REMERA BOXY IMPRESS,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-impress-gris-1.jpg
+REMERA BOXY,REMERA BOXY IMPRESS,Negro,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-impress-negro-1.jpg
 REMERA ACROSS,REMERA ATHLETIC,Crema,NEW IN,15990,"S,M,L,XL",
 REMERA ACROSS,REMERA ATHLETIC,Verde,NEW IN,15990,"S,M,L,XL",
 REMERA ACROSS,REMERA ATHLETIC,Negro,NEW IN,15990,"S,M,L,XL",
 REMERA ACROSS,REMERA LOGOTYPE,Crema,NEW IN,15990,"S,M,L,XL",
 REMERA ACROSS,REMERA LOGOTYPE,Verde,NEW IN,15990,"S,M,L,XL",
 REMERA ACROSS,REMERA LOGOTYPE,Negro,NEW IN,15990,"S,M,L,XL",
-REMERA CROP,REMERA VINTAGE UNIFORM,Gris,NEW IN,18990,"S,M,L,XL",
-REMERA CROP,REMERA VINTAGE UNIFORM,Negro,NEW IN,18990,"S,M,L,XL",
+REMERA CROP,REMERA VINTAGE UNIFORM,Gris,NEW IN,18990,"S,M,L,XL",imagenes/remera-vintage-uniform-gris-1.jpg|imagenes/remera-vintage-uniform-gris-2.jpg
+REMERA CROP,REMERA VINTAGE UNIFORM,Negro,NEW IN,18990,"S,M,L,XL",imagenes/remera-vintage-uniform-negro-1.jpg|imagenes/remera-vintage-uniform-negro-2.jpg
 REMERA CROP,REMERA BRAND,Gris,,19990,"S,M,L,XL",imagenes/REMERA-BRAD-GRIS-1.JPG|imagenes/REMERA-BRAD-GRIS-2.JPG
 REMERA CROP,REMERA BRAND,Bordo,,19990,"S,M,L,XL",imagenes/REMERA-BRAD-BORDO-1.JPG|imagenes/REMERA-BRAD-BORDO-2.JPG|imagenes/REMERA-BRAD-BORDO-3.JPG
 REMERA CROP,REMERA CAMPUS WASH,Gris,,19990,"S,M,L,XL",
@@ -36,9 +40,9 @@ REMERA CROP,REMERA WASTAGED,Marron,NEW IN,19990,"S,M,L,XL",imagenes/REMERA-WASTA
 REMERA CROP,REMERA WASTAGED,Gris,NEW IN,19990,"S,M,L,XL",imagenes/REMERA-WASTAGED-GRIS-1.JPG|imagenes/REMERA-WASTAGED-GRIS-2.JPG|imagenes/REMERA-WASTAGED-GRIS-3.JPG
 CAMISA,CAMISA MEMORIES,Marron,NEW IN,31490,"S,M,L,XL",
 CAMISA,CAMISA MOTOR SQUAD,Beige,NEW IN,31490,"S,M,L,XL",
-CAMISA,REMERA CAMPUS LAYER,Off white,AGOTADO,19990,"S,M,L,XL",imagenes/remera-campus-layer-celeste-1.jpg|imagenes/remera-campus-layer-celeste-2.jpg|imagenes/remera-campus-layer-celeste-3.jpg
+CAMISA,REMERA CAMPUS LAYER,Off white,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-layer-celeste-1.jpg|imagenes/remera-campus-layer-celeste-2.jpg|imagenes/remera-campus-layer-celeste-3.jpg
 CAMISA,CAMISA LEMAN STRIPE,Celeste,AGOTADO,26990,"S,M,L,XL",imagenes/camisa1.jpg|imagenes/camisa2.jpg|imagenes/camisa3.jpg
-CREWNECK,CREWNECK MOTOR SQUAD,Azul,NEW IN,28490,"S,M,L,XL",
+CREWNECK,CREWNECK MOTOR SQUAD,Azul,NEW IN,28490,"S,M,L,XL",imagenes/crewneck-motor-squad-azul-1.jpg|imagenes/crewneck-motor-squad-azul-2.jpg|imagenes/crewneck-motor-squad-azul-3.jpg
 CREWNECK,CREWNECK PITCHER,Gris,AGOTADO,32490,"S,M,L,XL",imagenes/crewneck-pitcher-gris-1.jpg|imagenes/crewneck-pitcher-gris-2.jpg
 CREWNECK,CREWNECK PITCHER,Negro,AGOTADO,32490,"S,M,L,XL",imagenes/crewneck-pitcher-negro-1.jpg|imagenes/crewneck-pitcher-negro-2.jpg
 CREWNECK,CREWNECK UNIFORM,Gris,AGOTADO,32490,"S,M,L,XL",imagenes/crewneck-uniform-gris-1.jpg|imagenes/crewneck-uniform-gris-2.jpg
@@ -53,13 +57,13 @@ HOODIES,HOODIE LMN STUDIOS,Negro,AGOTADO,34990,"S,M,L,XL",imagenes/lmnstudiosneg
 HOODIES,HOODIE LMN STUDIOS,Beige,AGOTADO,34990,"S,M,L,XL",imagenes/lmnstudiosbeige1.JPG|imagenes/lmnstudiosbeige2.JPG|imagenes/lmnstudiosbeige3.JPG
 BERMUDA,BERMUDA ATTITUDE,Celeste,NEW IN,32990,"38,40,42,44,46,48",
 BERMUDA,BERMUDA ATTITUDE,Azul,NEW IN,32990,"38,40,42,44,46,48",
-BERMUDA,BERMUDA LUCK,Beige,,32990,"38,40,42,44,46,48",
-BERMUDA,BERMUDA LUCK,Negro,,32990,"38,40,42,44,46,48",
+BERMUDA,BERMUDA LUCK,Beige,,32990,"38,40,42,44,46,48",imagenes/bermuda-luck-beige-1.jpg|imagenes/bermuda-luck-beige-2.jpg|imagenes/bermuda-luck-beige-3.jpg
+BERMUDA,BERMUDA LUCK,Negro,,32990,"38,40,42,44,46,48",imagenes/bermuda-luck-negro-1.jpg|imagenes/bermuda-luck-negro-2.jpg
 BERMUDA,BERMUDA LEGACY,Chocolate,PROXIMAMENTE,32990,"38,40,42,44,46,48",
 BERMUDA,BERMUDA LEGACY,Negro,PROXIMAMENTE,32990,"38,40,42,44,46,48",
 BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,AGOTADO,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-uniform-celeste-1.jpg|imagenes/bermuda-baggy-uniform-celeste-2.jpg|imagenes/bermuda-baggy-uniform-celeste-3.jpg
 BERMUDA,BERMUDA BAGGY ROOT,Celeste,AGOTADO,29990,"38,40,42,44,46,48",imagenes/bermuda-root-celeste-1.JPG|imagenes/bermuda-root-celeste-2.JPG|imagenes/bermuda-root-celeste-3.JPG|imagenes/bermuda-root-celeste-4.JPG
-DENIM,PANTALON MAXI BALLOON,Negro,,34990,"38,40,42,44,46,48",
+DENIM,PANTALON MAXI BALLOON,Negro,,34990,"38,40,42,44,46,48",imagenes/pantalon-maxi-balloon-negro-1.jpg|imagenes/pantalon-maxi-balloon-negro-2.jpg|imagenes/pantalon-maxi-balloon-negro-3.jpg|imagenes/pantalon-maxi-balloon-negro-4.jpg|imagenes/pantalon-maxi-balloon-negro-5.jpg
 DENIM,PANTALON MAXI BALLOON,Beige,,34990,"38,40,42,44,46,48",
 DENIM,JEAN STRAIGHT,,PROXIMAMENTE,34990,"38,40,42,44,46,48",
 DENIM,JEAN STRAIGHT,,PROXIMAMENTE,34990,"38,40,42,44,46,48",
