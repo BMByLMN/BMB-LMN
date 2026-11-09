@@ -1,8 +1,8 @@
 categoria,producto,color,etiqueta,precio,talles,imagen
-MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Gris,,17490,"S,M,L,XL",
-MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Negro,,17490,"S,M,L,XL",
-MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Gris,,17490,"S,M,L,XL",
-MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Negro,,17490,"S,M,L,XL",
+MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Gris,,17490,"S,M,L,XL",imagenes/musculosa-athletique-gris-1.jpg|imagenes/musculosa-athletique-gris-2.jpg
+MUSCULOSA WASH,MUSCULOSA ATHLETIQUE,Negro,,17490,"S,M,L,XL",imagenes/musculosa-athletique-negro-1.jpg|imagenes/musculosa-athletique-negro-2.jpg
+MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Gris,,17490,"S,M,L,XL",imagenes/musculosa-logotype-gris-1.jpg|imagenes/musculosa-logotype-gris-2.jpg
+MUSCULOSA WASH,MUSCULOSA LOGOTYPE,Negro,,17490,"S,M,L,XL",imagenes/musculosa-logotype-negro-1.jpg|imagenes/musculosa-logotype-negro-2.jpg
 REMERA REGULAR,REMERA ESTABLISHED,Crema,NEW IN,15990,"S,M,L,XL",imagenes/remera-established-crema-1.jpg
 REMERA REGULAR,REMERA ESTABLISHED,Gris,NEW IN,15990,"S,M,L,XL",imagenes/remera-established-gris-1.jpg|imagenes/remera-established-gris-2.jpg
 REMERA REGULAR,REMERA ESTABLISHED,Negro,NEW IN,15990,"S,M,L,XL",imagenes/remera-established-negro-1.jpg|imagenes/remera-established-negro-2.jpg
@@ -59,8 +59,8 @@ BERMUDA,BERMUDA ATTITUDE,Celeste,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermu
 BERMUDA,BERMUDA ATTITUDE,Azul,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermuda-attitude-azul-1.jpg|imagenes/bermuda-attitude-azul-2.jpg
 BERMUDA,BERMUDA LUCK,Beige,,32990,"38,40,42,44,46,48",imagenes/bermuda-luck-beige-1.jpg|imagenes/bermuda-luck-beige-2.jpg|imagenes/bermuda-luck-beige-3.jpg
 BERMUDA,BERMUDA LUCK,Negro,,32990,"38,40,42,44,46,48",imagenes/bermuda-luck-negro-1.jpg|imagenes/bermuda-luck-negro-2.jpg
-BERMUDA,BERMUDA LEGACY,Chocolate,PROXIMAMENTE,32990,"38,40,42,44,46,48",
-BERMUDA,BERMUDA LEGACY,Negro,PROXIMAMENTE,32990,"38,40,42,44,46,48",
+BERMUDA,BERMUDA LEGACY,Chocolate,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermuda-legacy-chocolate-1.jpg|imagenes/bermuda-legacy-chocolate-2.jpg
+BERMUDA,BERMUDA LEGACY,Negro,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermuda-legacy-negro-1.jpg|imagenes/bermuda-legacy-negro-2.jpg
 BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,AGOTADO,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-uniform-celeste-1.jpg|imagenes/bermuda-baggy-uniform-celeste-2.jpg|imagenes/bermuda-baggy-uniform-celeste-3.jpg
 BERMUDA,BERMUDA BAGGY ROOT,Celeste,AGOTADO,29990,"38,40,42,44,46,48",imagenes/bermuda-root-celeste-1.JPG|imagenes/bermuda-root-celeste-2.JPG|imagenes/bermuda-root-celeste-3.JPG|imagenes/bermuda-root-celeste-4.JPG
 DENIM,PANTALON MAXI BALLOON,Negro,,34990,"38,40,42,44,46,48",imagenes/pantalon-maxi-balloon-negro-1.jpg|imagenes/pantalon-maxi-balloon-negro-2.jpg|imagenes/pantalon-maxi-balloon-negro-3.jpg|imagenes/pantalon-maxi-balloon-negro-4.jpg|imagenes/pantalon-maxi-balloon-negro-5.jpg
@@ -68,6 +68,9 @@ DENIM,PANTALON MAXI BALLOON,Beige,,34990,"38,40,42,44,46,48",
 DENIM,JEAN STRAIGHT,,PROXIMAMENTE,34990,"38,40,42,44,46,48",
 DENIM,JEAN STRAIGHT,,PROXIMAMENTE,34990,"38,40,42,44,46,48",
 DENIM,BAGGY HOLE,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/baggy-hole-celeste-1.jpg|imagenes/baggy-hole-celeste-2.jpg|imagenes/baggy-hole-celeste-3.jpg|imagenes/baggy-hole-celeste-4.jpg
+DENIM,BAGGY ROOT,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-root-celeste-1.jpg|imagenes/baggy-root-celeste-2.jpg|imagenes/baggy-root-celeste-3.jpg
+DENIM,BAGGY UNIFORM,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-uniform-celeste-1.jpg|imagenes/baggy-uniform-celeste-2.jpg|imagenes/baggy-uniform-celeste-3.jpg
+DENIM,JEAN STRAIGHT RUST,Negro,AGOTADO,32990,"38,40,42,44,46,48",imagenes/denim/jean-straight-black-negro.JPG
 DENIM,BAGGY ROOT,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-root-celeste-1.jpg|imagenes/baggy-root-celeste-2.jpg|imagenes/baggy-root-celeste-3.jpg
 DENIM,BAGGY UNIFORM,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-uniform-celeste-1.jpg|imagenes/baggy-uniform-celeste-2.jpg|imagenes/baggy-uniform-celeste-3.jpg
 DENIM,JEAN STRAIGHT RUST,Negro,AGOTADO,32990,"38,40,42,44,46,48",imagenes/denim/jean-straight-black-negro.JPG
