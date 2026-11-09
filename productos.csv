@@ -38,8 +38,8 @@ REMERA CROP,REMERA CAMPUS WASH,Bordo,,19990,"S,M,L,XL",imagenes/REMERA-CAMPUS-WA
 REMERA CROP,REMERA CAMPUS WASH,Marron,NEW IN,19990,"S,M,L,XL",imagenes/REMERA-CAMPUS-WASH-MARRON-1.JPG|imagenes/REMERA-CAMPUS-WASH-MARRON-2.JPG|imagenes/REMERA-CAMPUS-WASH-MARRON-3.JPG
 REMERA CROP,REMERA WASTAGED,Marron,NEW IN,19990,"S,M,L,XL",imagenes/REMERA-WASTAGED-MARRON-1.JPG|imagenes/REMERA-WASTAGED-MARRON-2.JPG
 REMERA CROP,REMERA WASTAGED,Gris,NEW IN,19990,"S,M,L,XL",imagenes/REMERA-WASTAGED-GRIS-1.JPG|imagenes/REMERA-WASTAGED-GRIS-2.JPG|imagenes/REMERA-WASTAGED-GRIS-3.JPG
-CAMISA,CAMISA MEMORIES,Marron,NEW IN,31490,"S,M,L,XL",
-CAMISA,CAMISA MOTOR SQUAD,Beige,NEW IN,31490,"S,M,L,XL",
+CAMISA,CAMISA MEMORIES,Marron,NEW IN,31490,"S,M,L,XL",imagenes/camisa-memories-marron-1.jpg|imagenes/camisa-memories-marron-2.jpg
+CAMISA,CAMISA MOTOR SQUAD,Beige,NEW IN,31490,"S,M,L,XL",imagenes/camisa-motor-squad-beige-1.jpg|imagenes/camisa-motor-squad-beige-2.jpg|imagenes/camisa-motor-squad-beige-3.jpg
 CAMISA,REMERA CAMPUS LAYER,Off white,NEW IN,19990,"S,M,L,XL",imagenes/remera-campus-layer-celeste-1.jpg|imagenes/remera-campus-layer-celeste-2.jpg|imagenes/remera-campus-layer-celeste-3.jpg
 CAMISA,CAMISA LEMAN STRIPE,Celeste,AGOTADO,26990,"S,M,L,XL",imagenes/camisa1.jpg|imagenes/camisa2.jpg|imagenes/camisa3.jpg
 CREWNECK,CREWNECK MOTOR SQUAD,Azul,NEW IN,28490,"S,M,L,XL",imagenes/crewneck-motor-squad-azul-1.jpg|imagenes/crewneck-motor-squad-azul-2.jpg|imagenes/crewneck-motor-squad-azul-3.jpg
@@ -55,8 +55,8 @@ HOODIES,HOODIE CHAMP,Negro,AGOTADO,34990,"S,M,L,XL",imagenes/champnegro1.JPG|ima
 HOODIES,HOODIE CHAMP,Beige,AGOTADO,34990,"S,M,L,XL",imagenes/champbeige1.JPG|imagenes/champbeige2.JPG
 HOODIES,HOODIE LMN STUDIOS,Negro,AGOTADO,34990,"S,M,L,XL",imagenes/lmnstudiosnegro1.JPG|imagenes/lmnstudiosnegro2.JPG
 HOODIES,HOODIE LMN STUDIOS,Beige,AGOTADO,34990,"S,M,L,XL",imagenes/lmnstudiosbeige1.JPG|imagenes/lmnstudiosbeige2.JPG|imagenes/lmnstudiosbeige3.JPG
-BERMUDA,BERMUDA ATTITUDE,Celeste,NEW IN,32990,"38,40,42,44,46,48",
-BERMUDA,BERMUDA ATTITUDE,Azul,NEW IN,32990,"38,40,42,44,46,48",
+BERMUDA,BERMUDA ATTITUDE,Celeste,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermuda-attitude-celeste-1.jpg|imagenes/bermuda-attitude-celeste-2.jpg
+BERMUDA,BERMUDA ATTITUDE,Azul,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermuda-attitude-azul-1.jpg|imagenes/bermuda-attitude-azul-2.jpg
 BERMUDA,BERMUDA LUCK,Beige,,32990,"38,40,42,44,46,48",imagenes/bermuda-luck-beige-1.jpg|imagenes/bermuda-luck-beige-2.jpg|imagenes/bermuda-luck-beige-3.jpg
 BERMUDA,BERMUDA LUCK,Negro,,32990,"38,40,42,44,46,48",imagenes/bermuda-luck-negro-1.jpg|imagenes/bermuda-luck-negro-2.jpg
 BERMUDA,BERMUDA LEGACY,Chocolate,PROXIMAMENTE,32990,"38,40,42,44,46,48",
