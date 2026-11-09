@@ -23,12 +23,12 @@ REMERA BOXY,REMERA BOXY AUTHENTIC,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-
 REMERA BOXY,REMERA BOXY AUTHENTIC,Negro,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-authentic-negro-1.jpg|imagenes/remera-boxy-authentic-negro-2.jpg
 REMERA BOXY,REMERA BOXY IMPRESS,Gris,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-impress-gris-1.jpg
 REMERA BOXY,REMERA BOXY IMPRESS,Negro,AGOTADO,16990,"S,M,L,XL",imagenes/remera-boxy-impress-negro-1.jpg
-REMERA ACROSS,REMERA ATHLETIC,Crema,NEW IN,15990,"S,M,L,XL",
-REMERA ACROSS,REMERA ATHLETIC,Verde,NEW IN,15990,"S,M,L,XL",
-REMERA ACROSS,REMERA ATHLETIC,Negro,NEW IN,15990,"S,M,L,XL",
-REMERA ACROSS,REMERA LOGOTYPE,Crema,NEW IN,15990,"S,M,L,XL",
-REMERA ACROSS,REMERA LOGOTYPE,Verde,NEW IN,15990,"S,M,L,XL",
-REMERA ACROSS,REMERA LOGOTYPE,Negro,NEW IN,15990,"S,M,L,XL",
+REMERA ACROSS,REMERA ATHLETIC,Crema,NEW IN,15990,"S,M,L,XL",imagenes/remera-athletic-crema-1.jpg|imagenes/remera-athletic-crema-2.jpg
+REMERA ACROSS,REMERA ATHLETIC,Verde,NEW IN,15990,"S,M,L,XL",imagenes/remera-athletic-verde-1.jpg|imagenes/remera-athletic-verde-2.jpg
+REMERA ACROSS,REMERA ATHLETIC,Negro,NEW IN,15990,"S,M,L,XL",imagenes/remera-athletic-negro-1.jpg|imagenes/remera-athletic-negro-2.jpg
+REMERA ACROSS,REMERA LOGOTYPE,Crema,NEW IN,15990,"S,M,L,XL",imagenes/remera-logotype-crema-1.jpg|imagenes/remera-logotype-crema-2.jpg|imagenes/remera-logotype-crema-3.jpg
+REMERA ACROSS,REMERA LOGOTYPE,Verde,NEW IN,15990,"S,M,L,XL",imagenes/remera-logotype-verde-1.jpg|imagenes/remera-logotype-verde-2.jpg
+REMERA ACROSS,REMERA LOGOTYPE,Negro,NEW IN,15990,"S,M,L,XL",imagenes/remera-logotype-negro-1.jpg|imagenes/remera-logotype-negro-2.jpg
 REMERA CROP,REMERA VINTAGE UNIFORM,Gris,NEW IN,18990,"S,M,L,XL",imagenes/remera-vintage-uniform-gris-1.jpg|imagenes/remera-vintage-uniform-gris-2.jpg
 REMERA CROP,REMERA VINTAGE UNIFORM,Negro,NEW IN,18990,"S,M,L,XL",imagenes/remera-vintage-uniform-negro-1.jpg|imagenes/remera-vintage-uniform-negro-2.jpg
 REMERA CROP,REMERA BRAND,Gris,,19990,"S,M,L,XL",imagenes/REMERA-BRAD-GRIS-1.JPG|imagenes/REMERA-BRAD-GRIS-2.JPG
@@ -64,13 +64,12 @@ BERMUDA,BERMUDA LEGACY,Negro,NEW IN,32990,"38,40,42,44,46,48",imagenes/bermuda-l
 BERMUDA,BERMUDA BAGGY UNIFORM,Celeste,AGOTADO,29990,"38,40,42,44,46,48",imagenes/bermuda-baggy-uniform-celeste-1.jpg|imagenes/bermuda-baggy-uniform-celeste-2.jpg|imagenes/bermuda-baggy-uniform-celeste-3.jpg
 BERMUDA,BERMUDA BAGGY ROOT,Celeste,AGOTADO,29990,"38,40,42,44,46,48",imagenes/bermuda-root-celeste-1.JPG|imagenes/bermuda-root-celeste-2.JPG|imagenes/bermuda-root-celeste-3.JPG|imagenes/bermuda-root-celeste-4.JPG
 DENIM,PANTALON MAXI BALLOON,Negro,,34990,"38,40,42,44,46,48",imagenes/pantalon-maxi-balloon-negro-1.jpg|imagenes/pantalon-maxi-balloon-negro-2.jpg|imagenes/pantalon-maxi-balloon-negro-3.jpg|imagenes/pantalon-maxi-balloon-negro-4.jpg|imagenes/pantalon-maxi-balloon-negro-5.jpg
-DENIM,PANTALON MAXI BALLOON,Beige,,34990,"38,40,42,44,46,48",
+DENIM,PANTALON MAXI BALLOON,Beige,,34990,"38,40,42,44,46,48",imagenes/pantalon-maxi-balloon-beige-1.jpg|imagenes/pantalon-maxi-balloon-beige-2.jpg|imagenes/pantalon-maxi-balloon-beige-3.jpg
 DENIM,JEAN STRAIGHT,,PROXIMAMENTE,34990,"38,40,42,44,46,48",
 DENIM,JEAN STRAIGHT,,PROXIMAMENTE,34990,"38,40,42,44,46,48",
 DENIM,BAGGY HOLE,Celeste,NEW IN,34990,"38,40,42,44,46,48",imagenes/baggy-hole-celeste-1.jpg|imagenes/baggy-hole-celeste-2.jpg|imagenes/baggy-hole-celeste-3.jpg|imagenes/baggy-hole-celeste-4.jpg
 DENIM,BAGGY ROOT,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-root-celeste-1.jpg|imagenes/baggy-root-celeste-2.jpg|imagenes/baggy-root-celeste-3.jpg
 DENIM,BAGGY UNIFORM,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-uniform-celeste-1.jpg|imagenes/baggy-uniform-celeste-2.jpg|imagenes/baggy-uniform-celeste-3.jpg
-DENIM,JEAN STRAIGHT RUST,Negro,AGOTADO,32990,"38,40,42,44,46,48",imagenes/denim/jean-straight-black-negro.JPG
-DENIM,BAGGY ROOT,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-root-celeste-1.jpg|imagenes/baggy-root-celeste-2.jpg|imagenes/baggy-root-celeste-3.jpg
+DENIM,JEAN STRAIGHT RUST,Negro,AGOTADO,32990,"38,40,42,44,46,48",imagenes/denim/jean-straight-black-negro.JPGimagenes/baggy-root-celeste-3.jpg
 DENIM,BAGGY UNIFORM,Celeste,AGOTADO,34990,"38,40,42,44,46,48",imagenes/baggy-uniform-celeste-1.jpg|imagenes/baggy-uniform-celeste-2.jpg|imagenes/baggy-uniform-celeste-3.jpg
 DENIM,JEAN STRAIGHT RUST,Negro,AGOTADO,32990,"38,40,42,44,46,48",imagenes/denim/jean-straight-black-negro.JPG
